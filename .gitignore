@@ -1,10 +1,10 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Entorno virtual que crea uv (se regenera con: uv sync)
+.venv/
 
-# Virtual environments
-.venv
+# Cachés de Python
+__pycache__/
+*.egg-info
+dist/
+
+# Secretos: claves de API y configuración privada. NUNCA al repo.
+.env
